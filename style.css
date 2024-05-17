@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  margin: 50px auto;
+}
+
+.square {
+  width: 75px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white {
+  background-color: #f0d9b5;
+}
+
+.black {
+  background-color: #b58863;
+}
+.highlight {
+  background-color: green;
+}
+
+.label {
+  font-size: 20px;
+  color: #333;
+}
+.knight {
+  width: 100%;
+  cursor: pointer;
+}
